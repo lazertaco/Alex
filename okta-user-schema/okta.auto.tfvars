@@ -1,2 +1,2 @@
-org_name  = "https://dev-42308553"
+org_name  = "dev-42308553"
 base_url  = "okta.com"
