@@ -23,3 +23,11 @@ resource "okta_user_schema_property" "dob_extension" {
   type   = "string"
   master = "PROFILE_MASTER"
 }
+
+resource "okta_user" "Bitties" {
+  first_name         = "Tig Ol"
+  last_name          = "Bitties"
+  login              = "tigol.bitties@gmail.com"
+  email              = "tigol.bitties@gmail.com"
+  city               = "Tig Town"
+}
